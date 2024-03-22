@@ -1,0 +1,56 @@
+.tahoma {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.Biggest {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    width: 320px;
+}
+
+.sales {
+    font-size: 18px;
+    font-weight: normal;
+    color: orangered;
+    font-style: italic;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Verdana;
+    margin-top: 0px;
+}
+
+.course {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.level {
+    color: grey;
+}
+
+.desc {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.start {
+    font-family: Verdana;
+    background-color: rgb(38, 168, 71);
+    color: white;
+    border: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 14px;
+    border-radius: 7px;
+    cursor: pointer;
+}

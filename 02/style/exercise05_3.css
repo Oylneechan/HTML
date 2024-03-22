@@ -1,0 +1,46 @@
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+
+.new {
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.biggest {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: rgb(51, 87, 252);
+    border-radius: 20px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

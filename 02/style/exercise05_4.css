@@ -1,0 +1,50 @@
+.Tweet {
+    width: 500px;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0px;
+}
+
+.new_price {
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+
+.currency {
+    font-size: 16px;
+    color: grey;
+}
+
+.changed_price {
+    color: rgb(10, 119, 10);
+    margin-bottom: 10px;
+}
+
+.old_price {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.change {
+    color: red;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.id {
+    font-weight: normal;
+    color: grey;
+}
+
+.tag {
+    color: rgb(0, 174, 255);
+}
+
+.tag:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
