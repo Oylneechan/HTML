@@ -6,6 +6,43 @@ p {
     font-family: Arial;
 }
 
+.container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.google_search {
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-right: 200px;
+    padding-bottom: 8px;
+    width: 400px;
+    border: none;
+    border-radius: 18px;
+    font-size: 18px;
+    border-style: none;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+}
+
+.go_search {
+    margin-left: 15px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    padding: 16px;
+}
+
 .red-squre {
     width: 80px;
     height: 80px;
