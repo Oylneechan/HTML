@@ -4,9 +4,13 @@ p {
     margin-bottom: 0px;
 }
 
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .thumbnail01 {
-    width: 300px;
-    display: block;
+    width: 100%;
 }
 
 .search_box {
@@ -30,30 +34,13 @@ p {
     margin-bottom: 6px;
 }
 
-.video-preview {
-    margin-right: 15px;
-    width: 302px;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.channel-picture {
-    width: 42px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 5px;
-}
-
 .channel-pfp {
     width: 40px;
     border-radius: 50px;
 }
 
-.video-info {
-    width: 250px;
-    display: inline-block;
-}
-
 .info-nest {
     margin-top: 15px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
