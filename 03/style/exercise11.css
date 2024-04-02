@@ -1,0 +1,44 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 20px;
+}
+
+.ex11{
+    background-color: lightblue;
+}
+
+.ex12 {
+    background-color: lightpink;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 20px;
+}
+
+.ex21{
+    background-color: lightblue;
+}
+
+.ex22 {
+    background-color: lightpink;
+}
+
+.ex23{
+    background-color: lightblue;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 20px;
+
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.ex31, .ex32, .ex33, .ex34 {
+    background-color: lightpink;
+}
