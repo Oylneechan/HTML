@@ -1,0 +1,65 @@
+p {
+    margin: 0px;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.pfp-box {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.pfp {
+    width: 60px;
+    border-radius: 40px;
+}
+
+.infomation {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.message {
+    margin-bottom: 6px;
+}
+
+.name {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.id {
+    color: grey;
+    font-weight: normal;
+}
+
+.video-box {
+    border-radius: 14px;
+    border: solid;
+    border-width: 1px;
+    border-color: grey;
+    height: 80px;
+    
+    align-items: center;
+
+    display: flex;
+    overflow: hidden;
+}
+
+.preview {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220, 220, 220);
+    margin-right: 10px;
+}
+
+.link {
+    color: grey;
+    margin-bottom: 3px;
+}
