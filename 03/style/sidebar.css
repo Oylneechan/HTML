@@ -1,0 +1,13 @@
+body {
+    padding-left: 94px;
+}
+
+.side-bar {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 57px;
+    width: 72px;
+
+    background-color: white;
+}
