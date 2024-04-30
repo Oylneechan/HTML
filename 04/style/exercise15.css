@@ -1,0 +1,51 @@
+body {
+    height: 3000px;
+}
+
+div {
+    font-family: Arial;
+}
+
+.close-button {
+    background-color: black;
+    color: white;
+    position: absolute;
+    border-radius: 90px;
+    padding: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    top: 20px;
+    right: 15px
+}
+
+.close-button-new {
+    background-color: black;
+    color: white;
+    position: absolute;
+    border-radius: 90px;
+    padding: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    top: -20px;
+    left: -15px;
+    font-family: Arial;
+}
+
+.time-stamp {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    padding: 7px;
+    font-size: 13px;
+    color: white;
+    right: 8px;
+    bottom: 8px;
+}
+
+.grey-box {
+    background-color: grey;
+    width: 320px;
+    height: 180px;
+    position: fixed;
+    right: 15px;
+    bottom: 9px;
+}

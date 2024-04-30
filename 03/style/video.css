@@ -32,12 +32,34 @@ p {
 }
 
 .channel-pfp {
-    width: 40px;
+    width: 36px;
     border-radius: 50px;
 }
 
 .info-nest {
-    margin-top: 15px;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 50px 1fr;
+}
+
+.video-container {
+    position: relative;
+}
+
+.timestamp {
+    position: absolute;
+    bottom: 12px;
+    right: 8px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    border-radius: 2px;
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
